@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 231, 214);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: darkblue;
+    padding: 20px 0;
+    margin: 20;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    margin: 10px;
+    text-align: left;
+}
+
+nav a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+/* Main styles */
+main h1 {
+    color: darkblue;
+    background-color: azure;
+    width: 800px;
+    border: 10px;
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
+}
+
+main p {
+    text-align: left;
+    margin: 15px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+/* Aside styles */
+aside {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid black;
+    margin: 1em;
+    width: 400px;
+    text-align: center;
+}
+
+aside h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 200px;
+    background-color: rgb(238, 134, 8);
+    padding: 5px;
+    border: #333;
+    height: auto;
+}
+
+aside p {
+    text-align: justify;
+    margin: 25px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+}

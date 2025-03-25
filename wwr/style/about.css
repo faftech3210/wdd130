@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Body font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light Gray - Secondary */
+    color: #020202; /* Black - Accent2 */
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0056b3; /* Navy Blue - Primary */
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: #f4f4f4; /* Light Gray - Secondary */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #d4af37; /* Gold - Accent1 */
+}
+
+/* Section Styling */
+main {
+    padding: 2rem;
+}
+
+.rafting,
+.history,
+.adventure {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #f4f4f4; /* Light Gray - Secondary */
+    border: 1px solid #020202; /* Black - Accent2 */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history{
+    background-color: #d4af37;
+}
+
+/* Images: Full Width */
+.rafting img,
+.history img,
+.adventure img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 10px; /* Optional: add slight rounded corners */
+}
+
+/* Headings: Playfair Display */
+.rafting h2,
+.history h2,
+.adventure h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Heading font */
+    color: #0056b3; /* Navy Blue - Primary */
+    margin-bottom: 1rem;
+}
+
+/* Body Text: Roboto */
+.rafting p,
+.history p,
+.adventure p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Body font */
+    color: #020202; /* Black - Accent2 */
+}
+
+/* Footer */
+.footer {
+    background-color: #020202; /* Black - Accent2 */
+    color: #f4f4f4; /* Light Gray - Secondary */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer nav a {
+    color: #f4f4f4; /* Light Gray - Secondary */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer nav a:hover {
+    color: #d4af37; /* Gold - Accent1 */
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

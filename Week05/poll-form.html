@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW05 Learning Activity: HTML Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/poll.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item">
+                    <label for=" fullname">Full Name</label>
+                    <input type="fullname" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="username">Email</label>
+                    <input type="email" id="username" name="username">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question</legend>
+                <div class="column">
+                <label for="phone brand">Which is your favorit phone brand?</label>
+                    <select name="phone" id="phone">
+                    <option value="iphhone">iphhone</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Oppo">Oppo</option>
+                    <option value="Motorola">Motorola</option>
+                    <option value="Nokia">Nokia</option>
+                    <option value="Vivo">Vivo</option>
+                    <option value="OnePlus">OnePlus</option>
+                    <option value="Realme">Realme</option>
+                    <option value="Tocno">Tocno</option>
+                    <option value="HTC">iHTC</option>
+                    <option value="SONY">SONY</option>
+                    <option value="BlackBerry">BlackBerry</option>
+                </select>
+                </div>
+                <div class="column1">
+                    <label for="pet">Do you have a pet at home?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="column3"><label for="feedback ">List the places you have lived:</label></div>
+                <div class="column2">
+                    <textarea name="feedback" id="feedback" rows="4" placeholder="Lagos Nigeria, Acra Ghana, Abuja Nigeria, Jos Nigeria"></textarea >
+                </div>
+            </fieldset>
+            <div class="container"><button type="submit">submit Poll</button></div>
+        </form>
+    </main>
+    <footer>
+        <p>© 2025 | HTML For-user Poll Activity | practice by Franklin Akor all right reserved</p>
+    </footer>
+</body>
+</html>

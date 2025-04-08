@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style2/contact.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="images/mylogochoice.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="company-info">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Adventure Lane, Rapids City, RC 45678</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: contact@raftingadventures.com</p>
+            <div id="map-container">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=your-map-embed-code-here" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+            </div>
+          </section>
+          
+          <section id="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+              <img src="images/pro1.jpg" alt="John - Guide">
+              <p>John - Senior Rafting Guide</p>
+            </div>
+            <div class="employee">
+              <img src="images/prof2.jpg" alt="Emily - Support">
+              <p>Emily - Customer Support Specialist</p>
+            </div>
+            <div class="employee">
+              <img src="images/prof4.jpg" alt="Mike - Operations">
+              <p>Mike - Operations Manager</p>
+            </div>
+          </section>
+
+          <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit-form.php" method="POST">
+              <div class="column">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+          
+              <div class="column1">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+          
+              <label>Purpose of Message:</label>
+              <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+              <label for="general-inquiry">General Inquiry</label>
+              <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+              <label for="reservation-question">Reservation Question</label>
+              <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+              <label for="website-suggestion">Website Suggestion</label>
+          
+              <div class="column3">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+              </div>
+          
+              <input type="checkbox" id="newsletter" name="newsletter"><br>
+              <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+          
+             <div class="button">
+              <button type="submit">submit</button>
+             </div>
+              
+            </form>
+          </section>
+          
+          
+
+        <!-- Section 3: Adventure Awaits You -->
+        <section class="adventure">
+            <h2>Adventure Awaits You</h2>
+            <div id="adventure-gallery">
+                <div id="gallery1">
+                    <img src="images/River-Rafting-Assam-31-min.jpg" alt="River-Rafting" width="300" height="300">
+                    <p>water ride</p>
+                </div>
+                <div id="gallery2">
+                    <img src="images/rafting5-min.jpg" alt="rapping-fun" width="300" height="300">
+                    <p>water ride</p>
+                </div>
+                <div id="gallery3">
+                    <img src="images/rapping-fun-min.jpg" alt="rapping-fun" width="300" height="300">
+                    <p>water ride</p>
+                </div>
+                <div id="gallery4">
+                    <img src="images/rafting18-min.jpg" alt="rapping-fun" width="300" height="300">
+                    <p>water ride</p>
+                </div>
+                <div id="gallery5">
+                    <img src="images/rafting10-min.jpg" alt="rapping-fun" width="300" height="300">
+                    <p>water ride5</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Rafting Adventures</p>
+      <div class="social-icons">
+        <a href="https://wireframe.cc/pro/pp/361577e2f882891" target="_blank" rel="noopener noreferrer">Visit This page Wireframe Design </a>
+      </div>
+    </footer>
+</body>
+</html>

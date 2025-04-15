@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, fr);
     background-color:  #0056b3 ;
-    padding: 30px;
+    padding: 20px;
     z-index: 10px;
     margin: 15px;
     border-radius: 5px;
@@ -29,30 +29,45 @@ body {
     margin-left: 150px;
 }
 
+/* Navbar */
 .navbar {
     grid-column: 2/5;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    align-items: center;
-    margin-left: 30%;
-    gap: 10px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Spans the entire width */
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.navbar img {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    width: 150px;
+    height: 60px;
+    background-color: solid rgb(255, 162, 0);
+    margin: 0;
+    border-radius: 50px;
+    border-color: solid red;
+    
 }
 
 .navbar a {
-    background-color: #f4f4f4;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    align-content: center;
+    padding: 5%;
+    margin: 0 1rem;
+    color: #fff;
+    font-weight: bold;
 }
+
 
 /* Main Content Styles */
 main {
     margin: 100px;
     padding: 15px;
-    display: grid;
     gap: 30px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -273,57 +288,6 @@ main {
     grid-column: 3/4;
     font-size: 17px
 }
-
-/* Section: Adventure Awaits You */
-.adventure {
-    background-color: #fff;
-    padding: 30px;
-    border: 1px solid #ddd;
-    border-inline: solid black;
-    border-radius: 8px;
-    text-align: center;
-    display: grid;
-    gap: 10px;
-}
-
-.adventure{
-    display: flex;
-    flex-direction: column;
-}
-
-.adventure h2 {
-    font-size: 30px;
-    color:  #0056b3 ;
-}
-
-#adventure-gallery {
-    display: grid;
-    grid-template-columns: repeat(5, fr);
-}
-
-#gallery1{
-    grid-column: 1/2;
-}
-
-#gallery2{
-    grid-column: 2/3;
-}
-
-#gallery3{
-    grid-column: 3/4;
-}
-
-#gallery4{
-    grid-column: 4/5;
-}
-
-#gallery5{
-    grid-column: 5/6;
-}
-
-/* .adventure p {
-    font-size: 16px;
-} */
 
 /* Footer Styles */
 .footer {
